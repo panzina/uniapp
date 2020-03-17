@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "组件"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "信息页",
+				"navigationBarBackgroundColor":"#4CD964",
+				"h5":{
+					//刷新的时候转圈的颜色
+					"pullToRefresh":{
+						"color":"#FF34B3"
+					}
+					
+				}
+			}
+		},
+		{
+			"path":"pages/base/text"
+		},
+		{
+			"path":"pages/base/isView/isView"
+		},
+		{
+			"path":"pages/base/isButton/isButton"
+		},
+		{
+			"path":"pages/base/isImage/isImage"
+		}
+	],
+	//配置全局头部导航栏
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#aaaaff",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText":"啦啦啦",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#ff5500",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabIcon01.png",
+	        "selectedIconPath": "static/tabIcon11.png",
+	        "text": "组件"
+	    }, {
+	        "pagePath": "pages/message/message",
+	        "iconPath": "static/tabIcon03.png",
+	        "selectedIconPath": "static/tabIcon33.png",
+	        "text": "消息"
+	    }]
+	},
+	//配置微信小程序启动也
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
