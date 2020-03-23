@@ -31,6 +31,15 @@
 		},
 		{
 			"path":"pages/base/isImage/isImage"
+		},
+		{
+		  "path" : "pages/base/refresh/refresh"
+		}
+		,{
+		  "path" : "pages/base/reachBottom/reachBottom"
+		}
+		,{
+		   "path" : "pages/base/request/request"
 		}
 	],
 	//配置全局头部导航栏

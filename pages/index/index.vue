@@ -12,6 +12,15 @@
 			<navigator url="../base/isImage/isImage" hover-class="none" class="line">
 					<button type="default">Image的用法</button>
 			</navigator>
+			<navigator url="../base/refresh/refresh" hover-class="none" class="line">
+					<button type="default">下拉刷新用法</button>
+			</navigator>
+			<navigator url="../base/reachBottom/reachBottom" hover-class="none" class="line">
+					<button type="default">上拉加载</button>
+			</navigator>
+			<navigator url="../base/request/request" hover-class="none" class="line">
+					<button type="default">发送请求</button>
+			</navigator>
 	</view>
 </template>
 
