@@ -47,6 +47,12 @@
 					"navigationBarTitleText":"图片上传与预览"
 				}
 			}
+			,{
+					"path" : "pages/base/condition/condition",
+					"style" : {
+						"navigationBarTitleText":"条件编译"
+					}
+			}
     ],
 	//配置全局头部导航栏
 	"globalStyle": {

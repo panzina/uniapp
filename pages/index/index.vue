@@ -24,6 +24,9 @@
 			<navigator url="../base/uploadImage/uploadImage" hover-class="none" class="line">
 					<button type="default">图片上传与预览</button>
 			</navigator>
+			<navigator url="../base/condition/condition" hover-class="none" class="line">
+					<button type="default">条件编译</button>
+			</navigator>
 	</view>
 </template>
 
