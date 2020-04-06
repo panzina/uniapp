@@ -21,6 +21,10 @@ export const config = {
   }
 };
 
+export default {  
+    config 
+};
+
 /**
  * 全局 请求拦截器, 支持添加多个拦截器
  * 例如: 配置token、添加一些默认的参数

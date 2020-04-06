@@ -32,9 +32,7 @@
 			},
 			isAxios(){
 				this.axios.request({
-					//url:'/api/home/index/category',
 					url:'/diandianphp/public/admin/school/querySchoolList',
-					//url:'/api/school/queryAllSchoolInfo',
 					method:'get',
 					param:{}
 				}).then(function({data}){

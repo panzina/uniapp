@@ -41,7 +41,13 @@
 		,{
 		   "path" : "pages/base/request/request"
 		}
-	],
+		,{
+				"path" : "pages/base/uploadImage/uploadImage",
+				"style" : {
+					"navigationBarTitleText":"图片上传与预览"
+				}
+			}
+    ],
 	//配置全局头部导航栏
 	"globalStyle": {
 		"navigationBarBackgroundColor": "#aaaaff",

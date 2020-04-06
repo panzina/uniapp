@@ -21,6 +21,9 @@
 			<navigator url="../base/request/request" hover-class="none" class="line">
 					<button type="default">发送请求</button>
 			</navigator>
+			<navigator url="../base/uploadImage/uploadImage" hover-class="none" class="line">
+					<button type="default">图片上传与预览</button>
+			</navigator>
 	</view>
 </template>
 
@@ -43,6 +46,7 @@
 <style>
 	.index{
 		padding: 20upx;
+		background-color: #FFFFFF;
 	}
 	.line{
 		padding-bottom: 20upx;
