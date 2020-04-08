@@ -27,6 +27,12 @@
 			<navigator url="../base/condition/condition" hover-class="none" class="line">
 					<button type="default">条件编译</button>
 			</navigator>
+			<navigator url="../base/navigate/navigate" hover-class="none" class="line">
+					<button type="default">页面跳转</button>
+			</navigator>
+			<navigator url="../base/com/com" hover-class="none" class="line">
+					<button type="default">自定义组件</button>
+			</navigator>
 	</view>
 </template>
 

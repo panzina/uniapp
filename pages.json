@@ -53,6 +53,18 @@
 						"navigationBarTitleText":"条件编译"
 					}
 			}
+        ,{
+            "path" : "pages/base/navigate/navigate",
+            "style" : {
+            	"navigationBarTitleText":"页面跳转"
+            }
+        }
+        ,{
+            "path" : "pages/base/com/com",
+            "style" : {
+							"navigationBarTitleText":"自定义组件"
+						}
+        }
     ],
 	//配置全局头部导航栏
 	"globalStyle": {
