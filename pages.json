@@ -65,6 +65,12 @@
 							"navigationBarTitleText":"自定义组件"
 						}
         }
+        ,{
+            "path" : "pages/base/passValue/passValue",
+            "style" : {
+							"navigationBarTitleText":"页面通讯"
+						}
+        }
     ],
 	//配置全局头部导航栏
 	"globalStyle": {

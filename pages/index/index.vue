@@ -33,6 +33,9 @@
 			<navigator url="../base/com/com" hover-class="none" class="line">
 					<button type="default">自定义组件</button>
 			</navigator>
+			<navigator url="../base/passValue/passValue" hover-class="none" class="line">
+					<button type="default">页面通讯uni.$emit</button>
+			</navigator>
 	</view>
 </template>
 
